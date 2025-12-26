@@ -8,6 +8,10 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    
+    # THÊM ĐOẠN NÀY ĐỂ CẤP QUYỀN GHI
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout source code
