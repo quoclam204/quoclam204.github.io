@@ -3,7 +3,7 @@ name: Deploy React app to GitHub Pages
 on:
   push:
     branches:
-      - main   # đổi thành master nếu repo dùng branch master
+      - main   
 
 jobs:
   build-deploy:
@@ -21,11 +21,12 @@ jobs:
       - name: Install dependencies
         run: |
           cd client
-          npm install --legacy-peer-deps    # <-- SỬA thêm dòng này (để tránh xung đột package react-typical)
+          npm install --legacy-peer-deps
 
       - name: Build React app
         run: |
           cd client
+          export NODE_OPTIONS=--openssl-legacy-provider
           npm run build
 
       - name: Deploy to GitHub Pages
