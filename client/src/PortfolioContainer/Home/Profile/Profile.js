@@ -8,29 +8,10 @@ export default function Profile() {
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
-          <div className="colz">
-            <div className="colz-icon">
-              <a href="https://web.facebook.com/?_rdc=1&_rdr">
-                <i className="fa fa-facebook-square" />
-              </a>
-              <a href="#">
-                <i className="fa fa-google-plus-square" />
-              </a>
-              <a href="https://www.instagram.com/instructor_ehizeex/">
-                <i className="fa fa-instagram" />
-              </a>
-              <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-                <i className="fa fa-youtube-square" />
-              </a>
-              <a href="https://twitter.com/Ehiedu_baba">
-                <i className="fa fa-twitter" />
-              </a>
-            </div>
-          </div>
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">Quoc Lam</span>
+              Hello, I'M <span className="highlighted-text">Nguyen Le Quoc Lam</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -59,6 +40,22 @@ export default function Profile() {
             <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
+          </div>
+          <div className="colz">
+            <div className="colz-icon">
+              <a href="https://www.facebook.com/quoclam.nguyen.52643/">
+                <i className="fa fa-facebook-square" />
+              </a>
+              <a href="https://github.com/quoclam204/">
+                <i className="fa fa-github" />
+              </a>
+              <a href="https://www.linkedin.com/in/your-linkedin-username/">
+                <i className="fa fa-linkedin-square" />
+              </a>
+              <a href="https://www.instagram.com/q_lam204?igsh=MWcwbXdndTBubHhkeA==/">
+                <i className="fa fa-instagram" />
+              </a>
+            </div>
           </div>
         </div>
         <div className="profile-picture">
