@@ -8,6 +8,22 @@ export default function Profile() {
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
+          <div className="colz">
+            <div className="colz-icon">
+              <a href="https://www.facebook.com/quoclam.nguyen.52643/">
+                <i className="fa fa-facebook-square" />
+              </a>
+              <a href="https://github.com/quoclam204/">
+                <i className="fa fa-github" />
+              </a>
+              <a href="https://www.linkedin.com/in/your-linkedin-username/">
+                <i className="fa fa-linkedin-square" />
+              </a>
+              <a href="https://www.instagram.com/q_lam204?igsh=MWcwbXdndTBubHhkeA==/">
+                <i className="fa fa-instagram" />
+              </a>
+            </div>
+          </div>
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
@@ -40,22 +56,6 @@ export default function Profile() {
             <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
-          </div>
-          <div className="colz">
-            <div className="colz-icon">
-              <a href="https://www.facebook.com/quoclam.nguyen.52643/">
-                <i className="fa fa-facebook-square" />
-              </a>
-              <a href="https://github.com/quoclam204/">
-                <i className="fa fa-github" />
-              </a>
-              <a href="https://www.linkedin.com/in/your-linkedin-username/">
-                <i className="fa fa-linkedin-square" />
-              </a>
-              <a href="https://www.instagram.com/q_lam204?igsh=MWcwbXdndTBubHhkeA==/">
-                <i className="fa fa-instagram" />
-              </a>
-            </div>
           </div>
         </div>
         <div className="profile-picture">
