@@ -78,7 +78,7 @@ export default function ContactMe(props) {
           <a href="https://github.com/quoclam204/">
             <i className="fa fa-github" />
           </a>
-          <a href="https://www.linkedin.com/in/your-linkedin-username/">
+          <a href="https://www.linkedin.com/in/nguyen-le-quoc-lam-8b68943a3/">
             <i className="fa fa-linkedin-square" />
           </a>
           <a href="https://www.instagram.com/q_lam204?igsh=MWcwbXdndTBubHhkeA==/">
